@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 #a program that prints the number of and the list of its arguments.
 if __name__ == '__main__':
-
     import sys
     num_arg = len(sys.argv) - 1
-    print('{} arguments.'.format(num_arg))
     if num_arg == 0:
-        print("")
+        print('{} arguments.'.format(num_arg))
     else:
-        for num_arg, arg in enumerate(num_arg, start=1):
-            print("{}: {}".format(num_arg, arg))
+        print('{} arguments.'.format(num_arg))
+        for i in range(1, num_arg+1):
+            print("{}: {}".format(i, sys.argv[i]))
