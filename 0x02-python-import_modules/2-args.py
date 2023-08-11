@@ -5,7 +5,7 @@ if __name__ == '__main__':
     import sys
     arguments = sys.argv[1:]
     num_arg = len(arguments)
-    print('0 arguments.')
+    print('{} arguments.'.format(num_arg))
     if num_arg == 0:
         print(".")
     else:
