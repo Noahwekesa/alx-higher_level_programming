@@ -20,4 +20,6 @@ if __name__ == '__main__':
         print('{} - {} = {}'.format(a, b, operator['-'](a, b)))
     elif sys.argv[2] == '*':
         print('{} * {} = {}'.format(a, b, operator['*'](a, b)))
-    elif sys.argv[2] == '/':
+    else:
+        print('{} / {} = {}'.format(a, b, div(a, b)))
+        
