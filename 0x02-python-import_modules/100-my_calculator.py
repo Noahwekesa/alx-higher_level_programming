@@ -2,8 +2,8 @@
 if __name__ == '__main__':
     import sys
     from calculator_1 import add, sub, mul, div
-    a = int(sys.argv[1])
-    b = int(sys.argv[3])
+    a = int(sysargv[1])
+    b = int(sysargv[3])
     operator = {"+": add, "-": sub, "*": mul, "/": div}
     arg = len(sys.argv) - 1
     if arg != 3:
@@ -22,4 +22,3 @@ if __name__ == '__main__':
         print('{} * {} = {}'.format(a, b, operator['*'](a, b)))
     else:
         print('{} / {} = {}'.format(a, b, div(a, b)))
-        
