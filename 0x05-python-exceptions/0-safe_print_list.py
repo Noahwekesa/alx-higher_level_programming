@@ -3,9 +3,9 @@ def safe_print_list(my_list=[], x=0):
     safe_list = 0
     for elm in range(x):
         try:
-            print("{}".format(my_list[elm]), end=" ")
+            print("{}".format(my_list[elm]), end="")
             safe_list += 1
-        except ValueError:
+        except IndexError:
             break
     print()
     return safe_list
