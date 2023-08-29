@@ -31,3 +31,4 @@ try:
     print(type(my_square_4))
     print(my_square_4.__dict__)
 except Exception as e:
+    print (e)
