@@ -1,16 +1,18 @@
 #!/usr/bin/python3
+"""
+A class representing a square based on 2-square.py
+"""
 
 class Square:
     """
-    A class representing a square based on 2-square.py
+    atribute:
+    private instance
+    size (int): The size of the square.
     """
 
     def __init__(self, size=0):
         """
         Initialize a Square instance.
-        private instance
-        Args:
-            size (int): The size of the square.
         """
         if type(size) is not int:
             raise TypeError("size must be an integer")
