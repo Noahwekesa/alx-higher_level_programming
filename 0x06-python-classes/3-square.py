@@ -3,6 +3,7 @@
 A class representing a square based on 2-square.py
 """
 
+
 class Square:
     """
     atribute:
