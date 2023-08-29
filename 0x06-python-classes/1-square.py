@@ -14,4 +14,3 @@ class Square:
         initialization of the private attribute
         """
         self.__size = size
-        
