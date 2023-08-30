@@ -16,7 +16,7 @@ class Square:
     def __str__(self):
         """Return:
         string."""
-        return self.my_print()
+        return self.pos_print()
 
     @property
     def size(self):
@@ -50,8 +50,8 @@ class Square:
         """Calculate the area of the square."""
         return self.__size * self.__size
 
-    def my_print(self):
-        """Generate the string representation of the square with position."""
+    def pos_print(self):
+        """the string rep of the square with position."""
         elm = ""
         if self.size == 0:
             return "\n"
@@ -66,5 +66,5 @@ class Square:
         return elm
 
     def my_print(self):
-        """Print the string representation of the square with position."""
-        print(self.my_print(), end='')
+        """Print the string rep of the square with position."""
+        print(self.pos_print(), end='')
