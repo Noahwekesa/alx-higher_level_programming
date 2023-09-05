@@ -14,8 +14,4 @@ Return an integer: the addition of a and b
         raise TypeError("a must be an integer or b must be an integer")
     if not (isinstance(b, (int, float))):
         raise TypeError("b must be an integer")
-    if isinstance(a, float):
-        a = int(a)
-    if isinstance(a, float):
-        b = int(b)
-    return a + b
+    return int(a) + int(b)
