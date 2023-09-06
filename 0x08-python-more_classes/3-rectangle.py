@@ -11,7 +11,7 @@ class Rectangle:
     def __init__(self, width=0, height=0):
         """initiate the length of a new reeectangle
 
-        args: 
+        args:
             width (int)
             height (int)
         """
@@ -22,7 +22,7 @@ class Rectangle:
     def width(self):
         """for the width of the rectangle"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -30,7 +30,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-    
+
     @property
     def height(self):
         """for height of the Rectangle."""
