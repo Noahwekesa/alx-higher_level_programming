@@ -1,0 +1,46 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+========================================
+
+>>> text_indentation(24)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation({2, 4})
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation({7: "NOAH"})
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation((7, 4))
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation([7, 5])
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation(True)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation()
+Traceback (most recent call last):
+TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation("\n?\n.")
+<BLANKLINE>
+?
+<BLANKLINE>
+<BLANKLINE>
+.
+<BLANKLINE>
+
+>>> text_indentation("NOAH WEKESA")
+NOAH WEKESA
