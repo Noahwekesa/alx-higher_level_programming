@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
     function that retursn the list of available,
     attributes and methods of an obj
