@@ -6,4 +6,5 @@ specified class
 
 
 def is_same_class(obj, a_class):
+    """ function with 2 parameters"""
     return type(obj) is a_class
