@@ -9,7 +9,6 @@ class Rectangle(BaseGeometry):
     """
     a class rectangle
     """
-
     def __init__(self, width, height):
         """function instantiation with w and h"""
         self.integer_validator("width", width)
