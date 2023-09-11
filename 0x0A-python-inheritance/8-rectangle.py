@@ -13,8 +13,7 @@ class Rectangle:
     def __init__(self, width, height):
         """
         function instantiation with w and h"""
-        self._width = width
-        self._height = height
-        self.integer_validator(self._width)
-        self.integer_validator(self._height)
-        
+        self.integer_validator("width", width)
+        self.__width = width
+        self.integer_validator("height", height)
+        self.__height = height
