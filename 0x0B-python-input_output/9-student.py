@@ -4,7 +4,7 @@
 
 class student:
     """class student"""
-    def __init__(self, first_name, last_name, age) :
+    def __init__(self, first_name, last_name, age):
         """function with public instances of a student"""
         self.first_name = first_name
         self.last_name = last_name
