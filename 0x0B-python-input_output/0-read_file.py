@@ -7,4 +7,4 @@
 def read_file(filename=""):
     """implement function"""
     with open(filename, 'r', encoding='utf8')as file:
-        print(file.read())
+        print(file.read(), end='')
