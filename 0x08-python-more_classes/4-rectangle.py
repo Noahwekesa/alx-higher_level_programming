@@ -102,7 +102,7 @@ class Rectangle:
         return self.__draw_rectangle()
 
     def __repr__(self):
-        w = str(eval('self.width'))
-        h = str(eval('self.height'))
+        new_width = str(eval('self.width'))
+        new_height = str(eval('self.height'))
 
-        return 'Rectangle(' + w + ', ' + h + ')'
+        return 'Rectangle(' + new_width + ', ' + new_height + ')'
