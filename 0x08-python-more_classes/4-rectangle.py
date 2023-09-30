@@ -88,7 +88,7 @@ class Rectangle:
         if new_width == 0 or new_height == 0:
             return rect_str
 
-        for i in range(new_width):
+        for i in range(new_height):
             for j in range(new_width):
                 rect_str += '#'
 
