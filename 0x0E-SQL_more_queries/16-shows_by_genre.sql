@@ -1,4 +1,3 @@
-
 -- Script to List Shows and Genres from hbtn_0d_tvshows Database
 
 SELECT tv_shows.title, IFNULL(tv_genres.name, 'NULL') AS genre
