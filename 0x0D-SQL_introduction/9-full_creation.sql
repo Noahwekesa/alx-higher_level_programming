@@ -1,4 +1,4 @@
---Script to Create and Populate a Table in MySQL
+-- Script to Create and Populate a Table in MySQL
 CREATE TABLE IF NOT EXISTS hbtn_0c_0.second_table (
   id INT,
   name VARCHAR(256),
